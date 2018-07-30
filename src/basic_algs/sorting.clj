@@ -1,5 +1,6 @@
 (ns basic-algs.sorting)
 
+;; recursive quick sort
 (defn qsort [items]
   (cond
     (empty? items) []

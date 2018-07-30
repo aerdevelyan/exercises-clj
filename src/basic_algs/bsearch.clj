@@ -12,8 +12,3 @@
         (> elem mid-elem) (bsearch-rec (subvec arr mid-idx) elem)
         (< elem mid-elem) (bsearch-rec (subvec arr 0 mid-idx) elem)
         (= elem mid-elem) elem))))
-
-
-(def sarr [2 5 7 14 33 57 68 75 91])
-
-(bsearch-rec sarr 1)

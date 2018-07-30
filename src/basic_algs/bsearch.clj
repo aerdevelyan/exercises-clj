@@ -1,4 +1,4 @@
-(ns exercises-clj.bsearch)
+(ns basic-algs.bsearch)
 
 ;; recursive binary search
 (defn bsearch-rec [arr elem]
